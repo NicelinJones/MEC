@@ -5,7 +5,7 @@ function History() {
 const {history} =useContext(AppContext);
     return(
    <div className='sub'> 
-   <h3>History</h3>
+   <h2>History</h2>
      {history.map( (e,i) => (
         <div key={i}>
             {e.text} {e.amount}

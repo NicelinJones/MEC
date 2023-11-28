@@ -1,45 +1,183 @@
 .App{
-margin:100px;  
+margin:10px;  
 border: 2px solid red;
 padding: 10px;
 padding-top: 0px;
 padding-bottom: 0px;
+background-color: blue;
+
+}
+/*@media only screen and (min-width : 320px) {
+        
+}
+
+/* Extra Small Devices, Phones */ 
+/*@media only screen and (min-width : 480px) {
 
 }
 
-@media (orientation:landscape),(max-width : 600px) {
-  .mobile-view {
-    background-color : rgb(175, 77, 140);
-   }  
-  .mobile-view h2{
-    font-size:medium;
-  }
-  .mobile-view h3{
-    font-size:small;
-  }
+/* Small Devices, Tablets */
+/*@media only screen and (min-width : 768px) {
+
 }
-@media (orientation:portrait),(max-width : 380px) {
-  .mobile-view {
-    background-color:yellowgreen;
 
-   }  
-  .mobile-view h2{
-    font-size:small;
-  }
-  .mobile-view h3{
-    font-size:small;
-  }
-  
+/* Medium Devices, Desktops */
+/*@media only screen and (min-width : 992px) {
 
-
-  
 }
-@media (min-width :600px) {
+
+/* Large Devices, Wide Screens */
+/*@media only screen and (min-width : 1200px) {
+
+}*/
+@media only screen and (max-width : 320px){
+  .App{
+    margin: 10px;
+  }
+    .mobile-view{
+      background-color:blanchedalmond;
+
+    }
+    .mobile-view h1{
+      font-size: 2rem;
+    }
+    .mobile-view h2{
+      font-size: 1rem;
+    }
+    .mobile-view table tr td input{
+      font-size: 1rem;
+
+    }
+    .mobile-view div button{
+      font-size: 1rem;
+
+    }
+    }
+
+
+
+
+
+
+@media only screen and (min-width : 320px){
+  .App{
+    margin: 10px;
+  }
+    .mobile-view{
+      background-color:cyan;
+
+    }
+    .mobile-view h1{
+      font-size: 2rem;
+    }
+    .mobile-view h2{
+      font-size: 1rem;
+    }
+    .mobile-view table tr td input{
+      font-size: 1rem;
+
+    }
+    .mobile-view div button{
+      font-size: 1rem;
+
+    }
+    }
+  @media only screen and (min-width : 480px){
+    .App{
+      margin: 10px;
+    }
       .mobile-view{
-      background-color: blue;
+        background-color:chartreuse;
+  
+      }.mobile-view h1{
+        font-size: 3rem;
+      }
+      .mobile-view h2{
+        font-size: 2rem;
+      }
+      .mobile-view table tr td input{
+        font-size: 1rem;
+  
+      }
+      .mobile-view div button{
+        font-size: 1rem;
+  
+      }
+
+    }
+    @media only screen and (min-width : 768px) {
+      .App{
+        margin: 10px;
+      }
+      .mobile-view {
+        background-color:mistyrose;
+       }  
+       
+       .mobile-view h1{
+        font-size: 3rem;
+      }
+      .mobile-view h2{
+        font-size: 2rem;
+      }
+      .mobile-view table tr td input{
+        font-size: 1rem;
+  
+      }
+      .mobile-view div button{
+        font-size: 1rem;
+  
+      }  
       
     }
-  }
+    
+      
+    @media only screen and (min-width : 992px)  {
+      .App{
+        margin:10px;
+      }
+      .mobile-view {
+        background-color:aqua;
+      }
+       
+      .mobile-view h1{
+        font-size: 3rem;
+      }
+      .mobile-view h2{
+        font-size: 2rem;
+      }
+      .mobile-view table tr td input{
+        font-size: 1.5rem;
+  
+      }
+      .mobile-view div button{
+        font-size: 1.5rem;
+  
+      }
+    
+       }  
+    @media only screen and (min-width : 1200px){
+    .App{
+      margin:10px;
+    }
+    .mobile-view {
+      background-color:yellow;
+  
+     }  
+     .mobile-view h1{
+      font-size: 4rem;
+    }
+    .mobile-view h2{
+      font-size: 2rem;
+    }
+    .mobile-view table tr td input{
+      font-size: 1.5rem;
+
+    }
+    .mobile-view div button{
+      font-size: 1.5rem;
+
+    }
+           }
 
   
    /* .main{

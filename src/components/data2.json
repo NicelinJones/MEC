@@ -1,0 +1,10 @@
+[{
+    " Example  ": 1,
+    "Expense": "rent",
+    "Amount" : 9000
+    
+  }, {
+    " Example  ": 2,
+    "Expense": "stationaries cost",
+    "Amount": "6000"
+  }]

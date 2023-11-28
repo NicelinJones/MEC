@@ -6,13 +6,13 @@ function Balance(){
     return(
         <div className='sib'>
             <div>
-                <h3> Your Balance:Rs{balance}</h3>
+                <h2> Your Balance:Rs{balance}</h2>
             </div>
             <div>
-                <h3>Income:Rs{income}</h3>
+                <h2>Income:Rs{income}</h2>
             </div>
             <div>
-                <h3>Expense:Rs{expense}</h3>
+                <h2>Expense:Rs{expense}</h2>
             </div>
 
         </div>
