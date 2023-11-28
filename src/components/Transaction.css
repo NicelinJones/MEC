@@ -14,7 +14,7 @@
 }
 .vll {
   border-left: 6px solid green;
-  height: 500px;
+  height: 300px;
 }
 .df{
   display: flex;
@@ -24,10 +24,15 @@
 }
 .vlr {
     border-left: 6px solid green;
-    height: 500px;
+    height: 300px;
   }
   .hl {
     border-left: 6px solid green;
   }
-  
+  @media only screen and (max-width : 450px){
+    .df{
+      display: block;
+    }
+
+  }
   
