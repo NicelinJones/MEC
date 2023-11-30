@@ -8,7 +8,7 @@ const {history} =useContext(AppContext);
    <h2>History</h2>
      {history.map( (e,i) => (
         <div key={i}>
-            {e.text} {e.amount}
+            {e.seluct} {e.amount}
         </div>
      ))}
    </div>

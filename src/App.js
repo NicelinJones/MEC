@@ -10,7 +10,7 @@ export const AppContext=createContext(null);
   const [income,setIncome]=useState(0);
   const [expense,setExpense]=useState(0);
   const [history,setHistory]=useState([]);
-  const [text,setText]=useState("");
+  const [seluct,setSeluct]=useState("");
   const [amount,setAmount] =useState(0);
   const expenseArray = [],incomeArray = [];
 const reducer =(acc,curr) => acc+curr;
@@ -36,9 +36,10 @@ const reducer =(acc,curr) => acc+curr;
 
 
 const handleSubmit = (e) => {
+  console.log(seluct,amount);
   let intAmount = parseInt(amount);
   e.preventDefault();
-  if ((text === "" ) || ( amount === "")){
+  if ((seluct === "" ) || ( amount === 0 )){
       alert ("invalid inputs");
       return;
     }
@@ -59,8 +60,8 @@ const handleSubmit = (e) => {
   
 
     
-    setHistory ([...history,{text:text,amount:amount}])
-    setText("");setAmount("");
+    setHistory ([...history,{seluct:seluct,amount:amount}])
+    setSeluct("");setAmount("");
     alert("Transaction added")
     
 
@@ -68,7 +69,7 @@ const handleSubmit = (e) => {
   
   return(
   <div className="App" >
- <AppContext.Provider value={{balance,income,expense,history,text,amount,setText,setAmount,handleSubmit: {handleSubmit}}} >
+ <AppContext.Provider value={{balance,income,expense,history,seluct,amount,setSeluct,setAmount,handleSubmit: {handleSubmit}}} >
   <div  className = "mobile-view">
     <Header />
     <br/><br/>   
