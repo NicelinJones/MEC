@@ -10,6 +10,7 @@ const {history} =useContext(AppContext);
         <div key={i}>
             {e.seluct} {e.amount}
         </div>
+        
      ))}
    </div>
     )

@@ -4,5 +4,33 @@
     text-align: center;
     font-size:xx-large;
     color:red;
+    }
+    .hed{
+        height:110px;
+        width:100%;
+        background-color: aqua;
+        text-align: left;
+    }
+.logodesign{
+border-radius: 10px;
+    border: 5px solid purple;
+    padding: 0px;
     
+   
+
 }
+    
+.logocaption{  
+    display: block; 
+    float:center;
+    font-size:small;
+        background-color:white;
+        color:purple;
+        font-style: italic;
+        padding: 2px;
+        text-align: center;
+        width:10%;
+        margin:0px auto;
+       
+      }
+
