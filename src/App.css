@@ -4,7 +4,7 @@ border: 2px solid red;
 padding: 10px;
 padding-top: 0px;
 padding-bottom: 0px;
-background-color: blue;
+background-color:wheat;
 
 }
 /*@media only screen and (min-width : 320px) {
@@ -36,6 +36,7 @@ background-color: blue;
   }
     .mobile-view{
       background-color:blanchedalmond;
+      
 
     }
     .mobile-view h1{
@@ -64,7 +65,7 @@ background-color: blue;
     margin: 10px;
   }
     .mobile-view{
-      background-color:cyan;
+      background-color:plum;
 
     }
     .mobile-view h1{
@@ -87,7 +88,7 @@ background-color: blue;
       margin: 10px;
     }
       .mobile-view{
-        background-color:chartreuse;
+        background-color:powderblue;
   
       }.mobile-view h1{
         font-size: 3rem;
@@ -136,7 +137,7 @@ background-color: blue;
         margin:10px;
       }
       .mobile-view {
-        background-color:aqua;
+        background-color:beige;
       }
        
       .mobile-view h1{
@@ -160,8 +161,8 @@ background-color: blue;
       margin:10px;
     }
     .mobile-view {
-      background-color:yellow;
-  
+      background-color:purple;
+      
      }  
      .mobile-view h1{
       font-size: 4rem;

@@ -11,6 +11,9 @@
 }
 .lib div button{
     font-size: x-large;
+    color:green;
+    border-radius: 5px;
+    background-color:pink;
 }
 .vll {
   border-left: 6px solid green;
