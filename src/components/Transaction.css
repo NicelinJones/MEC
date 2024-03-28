@@ -7,35 +7,33 @@
 
 }
 .lib table tr td input{
-    font-size: x-large;
+    font-size: x-small;
 }
-.lib div button{
+.lib table tr td button{
     font-size: x-large;
     color:green;
     border-radius: 5px;
     background-color:pink;
 }
-.vll {
-  border-left: 6px solid green;
-  height: 300px;
+.lib table tr td{
+  
+  width: 220px;
+  margin: 10px;
+  color:lavender;
+  border-radius: 6px;
+  background-color:lightcoral;
 }
+
 .df{
   display: flex;
   flex-direction: row;
   justify-content:space-evenly ;
+  flex-wrap: wrap;
 
 }
-.vlr {
-    border-left: 6px solid green;
-    height: 300px;
-  }
-  .hl {
-    border-left: 6px solid green;
-  }
-  @media only screen and (max-width : 450px){
-    .df{
-      display: block;
-    }
 
-  }
+
+ 
+  
+ 
   

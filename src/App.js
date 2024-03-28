@@ -125,17 +125,18 @@ const handleSubmit = (e) => {
  <AppContext.Provider value={{balance,TotalIncomes,TotalExpenses,income,expense,history,incomes,expenses,seluct,amount,setSeluct,setAmount,TotalIncome:{TotalIncome},TotalExpense:{TotalExpense},handleSubmit: {handleSubmit}}} >
   <div  className = "mobile-view">
     <Header />
-    <br/><br/>   
-     <hr/><hr/>
+    <br/><br/>  
+    <hr></hr> 
+    <Transaction/>
+    <br></br>
+    <hr/><hr/>
     <Balance/>
     <br/><br/>
     <hr/><hr/>
     <History/>
     <br/><br/>
     <hr/><hr/>
-    <Transaction/>
-    <hr/><hr/>
-  </div>
+    </div>
  </AppContext.Provider>
  </div>
 );

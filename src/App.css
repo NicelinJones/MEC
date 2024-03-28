@@ -34,13 +34,13 @@ background-color:wheat;
   .App{
     margin: 10px;
   }
+  
     .mobile-view{
       background-color:blanchedalmond;
-      
 
     }
-    .mobile-view h1{
-      font-size: 2rem;
+    .mobile-view .girl h1{
+      font-size: 1.5rem;
     }
     .mobile-view h2{
       font-size: 1rem;
@@ -49,7 +49,7 @@ background-color:wheat;
       font-size: 1rem;
 
     }
-    .mobile-view div button{
+    .mobile-view table tr td button{
       font-size: 1rem;
 
     }
@@ -69,7 +69,7 @@ background-color:wheat;
 
     }
     .mobile-view h1{
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     .mobile-view h2{
       font-size: 1rem;
@@ -101,7 +101,7 @@ background-color:wheat;
   
       }
       .mobile-view div button{
-        font-size: 1rem;
+          font-size: 1rem;
   
       }
 
@@ -128,7 +128,7 @@ background-color:wheat;
         font-size: 1rem;
   
       }  
-      
+          
     }
     
       
@@ -147,11 +147,11 @@ background-color:wheat;
         font-size: 2rem;
       }
       .mobile-view table tr td input{
-        font-size: 1.5rem;
+        font-size: 1rem;
   
       }
       .mobile-view div button{
-        font-size: 1.5rem;
+        font-size: 1rem;
   
       }
     
@@ -171,11 +171,11 @@ background-color:wheat;
       font-size: 2rem;
     }
     .mobile-view table tr td input{
-      font-size: 1.5rem;
+      font-size: 1rem;
 
     }
     .mobile-view div button{
-      font-size: 1.5rem;
+      font-size: 1rem;
 
     }
            }
