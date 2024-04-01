@@ -6,12 +6,9 @@ function Balance(){
     return(
         <div className='sib'>
             <div>
-                <h2> Your Balance:Rs{balance}</h2>
+                <h2>Balance:{balance}</h2>
             </div>
-            
-            
-
-        </div>
+             </div>
     );
 }
 export default Balance;

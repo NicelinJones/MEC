@@ -8,6 +8,7 @@
 }
 .lib table tr td input{
     font-size: x-small;
+
 }
 .lib table tr td button{
     font-size: x-large;
@@ -17,8 +18,8 @@
 }
 .lib table tr td{
   
-  width: 237px;
-  margin: 2px;
+  width: 240px;
+  margin: 1px ;
   color:lavender;
   border-radius: 6px;
   background-color:lightcoral;

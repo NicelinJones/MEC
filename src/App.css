@@ -30,7 +30,7 @@ background-color:wheat;
 /*@media only screen and (min-width : 1200px) {
 
 }*/
-@media only screen and (max-width : 320px){
+@media only screen and (max-width : 340px){
   .App{
     margin: 10px;
   }
@@ -38,6 +38,12 @@ background-color:wheat;
     .mobile-view{
       background-color:blanchedalmond;
 
+    }
+    .mobile-view{
+      .hed img{
+         width: 80px;
+         height: 60px;
+      }
     }
     .mobile-view .girl h1{
       font-size: 1.5rem;
@@ -53,6 +59,12 @@ background-color:wheat;
       font-size: 1rem;
 
     }
+    .mobile-view .df{
+      font-size: 1rem;
+    }
+    .mobile-view .sub{
+      font-size: 1rem;
+    }
     }
 
 
@@ -60,7 +72,7 @@ background-color:wheat;
 
 
 
-@media only screen and (min-width : 320px){
+@media only screen and (min-width : 340px){
   .App{
     margin: 10px;
   }
@@ -68,7 +80,13 @@ background-color:wheat;
       background-color:plum;
 
     }
-    .mobile-view h1{
+    .mobile-view{
+      .hed img{
+         width: 90px;
+         height: 70px;
+      }
+    }
+    .mobile-view .girl h1{
       font-size: 1.5rem;
     }
     .mobile-view h2{
@@ -78,9 +96,14 @@ background-color:wheat;
       font-size: 1rem;
 
     }
-    .mobile-view div button{
+    .mobile-view table tr td button{
       font-size: 1rem;
-
+    }
+    .mobile-view .df{
+      font-size: 1rem;
+    }
+    .mobile-view .sub{
+      font-size: 1rem;
     }
     }
   @media only screen and (min-width : 480px){
@@ -90,19 +113,32 @@ background-color:wheat;
       .mobile-view{
         background-color:powderblue;
   
-      }.mobile-view h1{
-        font-size: 3rem;
+      }.mobile-view{
+        .hed img{
+           width: 100px;
+           height: 80px;
+        }
       }
-      .mobile-view h2{
+      .mobile-view .girl h1{
         font-size: 2rem;
+      }
+      
+      .mobile-view h2{
+        font-size: 1.5rem;
       }
       .mobile-view table tr td input{
         font-size: 1rem;
   
       }
-      .mobile-view div button{
+      .mobile-view table tr td button{
           font-size: 1rem;
   
+      }
+      .mobile-view .df{
+        font-size: 1.5rem;
+      }
+      .mobile-view .sub{
+        font-size: 1.5rem;
       }
 
     }
@@ -112,9 +148,14 @@ background-color:wheat;
       }
       .mobile-view {
         background-color:mistyrose;
-       }  
-       
-       .mobile-view h1{
+       }
+      .mobile-view{
+        .hed img{
+           width: 100px;
+           height: 80px;
+        }
+      } 
+       .mobile-view .girl h1{
         font-size: 3rem;
       }
       .mobile-view h2{
@@ -124,11 +165,16 @@ background-color:wheat;
         font-size: 1rem;
   
       }
-      .mobile-view div button{
-        font-size: 1rem;
-  
+      .mobile-view table tr td button{
+        font-size: 1.5rem;
       }  
-          
+      .mobile-view .df{
+        font-size: 1.5rem;
+      }
+      .mobile-view .sub{
+        font-size: 1.5rem;
+      }
+    
     }
     
       
@@ -139,9 +185,15 @@ background-color:wheat;
       .mobile-view {
         background-color:beige;
       }
+      .mobile-view{
+        .hed img{
+           width: 100px;
+           height: 80px;
+        }
+      } 
        
-      .mobile-view h1{
-        font-size: 3rem;
+      .mobile-view .girl h1{
+        font-size: 4rem;
       }
       .mobile-view h2{
         font-size: 2rem;
@@ -151,8 +203,14 @@ background-color:wheat;
   
       }
       .mobile-view div button{
-        font-size: 1rem;
+        font-size: 1.5rem;
   
+      }
+      .mobile-view .df{
+        font-size: 1.5rem;
+      }
+      .mobile-view .sub{
+        font-size: 1.5rem;
       }
     
        }  
@@ -164,7 +222,13 @@ background-color:wheat;
       background-color:purple;
       
      }  
-     .mobile-view h1{
+     .mobile-view{
+      .hed img{
+         width: 130px;
+         height: 100px;
+      }
+    } 
+     .mobile-view .girl h1{
       font-size: 4rem;
     }
     .mobile-view h2{
@@ -174,9 +238,14 @@ background-color:wheat;
       font-size: 1rem;
 
     }
-    .mobile-view div button{
-      font-size: 1rem;
+    .mobile-view table tr td button{
+      font-size: 1.5rem;
 
+    }.mobile-view .df{
+      font-size: 1.5rem;
+    }
+    .mobile-view .sub{
+      font-size: 1.5rem;
     }
            }
 
